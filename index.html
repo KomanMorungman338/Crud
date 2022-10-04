@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crud Demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1 style=text-align:center>"Hello To Crud"</h1>
+    <div class="title">
+
+        <form action="javascript:void(0);" method="POST" onsubmit="app.add()">
+            <input type="text" placeholder="To Enter" id="add-todo">
+            <input type="submit" value="Add" class="btn btn-primary">
+        </form>
+        <P><b>List Count:</b></P>
+        <p id="counter"></p>
+        <table>
+            <tr class="to-do">
+                <th>
+                    <h2>List:</h2>
+                </th>
+            </tr>
+            <tbody id="tasks">
+
+            </tbody>
+        </table>
+    </div>
+    <div id="edit-box" role="aria-hidden">
+        <form id="save-edit" action="javascript:void(0)" method="POST">
+            <input id="edit-todo" type="text">
+            <input type="submit" class="btn btn-success" value="Save">
+            <button onclick="closeInput()" aria-label="Close" class="btn btn-primary">X</button>
+        </form>
+    </div>
+    <script src="crud.js"></script>
+</body>
+
+</html>
