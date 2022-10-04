@@ -1,13 +1,13 @@
-/*var myString = `\fIam"Tombi"what?`;
+var myString = `\fIam"Tombi"what?`;
 
 console.log(myString[5]);
 console.log(myString.length);
 console.log(myString[5]);
-console.log(myString[myString.length - 1]);*/
+console.log(myString[myString.length - 1]);
 var arr = [20, 30, "Man", "Man", [2, 3, 4, "mani"], [[67, 2], "hari"]];
-/*console.log(arr[2] += 'i');
-*/console.log(arr[0][1]);
-/*console.log(arr[4]);
+console.log(arr[2] += 'i');
+console.log(arr[0][1]);
+console.log(arr[4]);
 console.log(arr[3][3][0]);
 console.log(arr[4][0][1]);
 var s = "chanu";
@@ -23,7 +23,7 @@ function f() {
 c = f(oops);
 console.log(c);
 console.log(oops);
-/*if (typeof oops != "undefined") {
+if (typeof oops != "undefined") {
     console.log(oni);
 }
 function ch(check) {
@@ -107,9 +107,9 @@ function update(Name, val) {
     return listPlayerT20;
 }
 console.log(update("Rohit", [1900, 2021]));
-*/
 
-/*var arr = [];/*
+
+var arr = [];
 while (i < 6) {
     arr.unshift(i);
     i++;
@@ -133,7 +133,7 @@ if (count === 1) {
 else if (count === 0) {
     console.log(key + "  is not found");
 }
-else console.log(key + " is duplicated for " + (count) + " times");*/
+else console.log(key + " is duplicated for " + (count) + " times");
 function multiply(arr) {
 
     prod = 1;
